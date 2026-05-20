@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>TechNova 2026</h1>
+
+    <nav>
+        <a href="index.htm">Home</a>
+        <a href="events.htm">Events</a>
+        <a href="feedback.htm">Feedback</a>
+    </nav>
+</header>
+
+<section class="form-section">
+
+    <h2>Feedback Form</h2><br>
+
+    <form id="feedbackForm">
+
+        <input type="text" id="studentName" placeholder="Student Name">
+
+        <input type="text" id="feedbackReg" placeholder="Register Number">
+
+        <select id="feedbackEvent">
+            <option value="">Select Event</option>
+            <option>Hackathon</option>
+            <option>Robotics</option>
+            <option>Gaming</option>
+        </select>
+
+        <select id="rating">
+            <option value="">Rating</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+
+        <textarea id="comments" placeholder="Comments"></textarea>
+
+        <button type="submit">Submit Feedback</button><br>
+
+    </form>
+
+    <div id="feedbackSummary"></div><br>
+
+    <h3>Average Rating: <span id="average">0</span></h3>
+
+</section>
+
+<footer>
+    <p>TechNova 2026</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
